@@ -1,0 +1,147 @@
+html {
+  font-family: "Archivo Narrow", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: pink;
+}
+
+header {
+    text-align: center;
+    padding-top: 155px;
+    line-height: 23px;
+    padding-bottom: 260px;
+    -webkit-text-stroke: .5px black;
+    background-image: url(https://png.pngtree.com/background/20250103/original/pngtree-white-paper-smooth-textured-white-pastel-background-picture-image_13391668.jpg);
+        background-size: cover;
+        height: 65px;
+    }
+
+h1 {
+    font-size: 65px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 33px;
+}
+
+p {
+    line-height: 23px;
+}
+
+section.one {
+    padding-top: 16px;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    padding-bottom: 5px;
+}
+
+section:first-of-type {
+    background-color:floralwhite;
+}
+
+section:first-of-type img {
+    float: right;
+    border: 3px solid pink; 
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+section.two {
+    padding-top: 10px;
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.grid {
+    padding: 0;
+    margin-right: 17rem;
+    margin-left: 17rem;
+}
+
+.grid li {
+    display: block;
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.grid img {
+    width: 100px;
+}
+
+.using-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 0px;
+    row-gap: 10px;
+}
+
+.using-grid li {
+    width: auto;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    text-align: left;
+}
+
+.using-grid img {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.using-grid li div {
+    flex: 1;
+    min-width: 0;
+}
+
+.using-grid li h4 {
+    margin: 0 0 1rem;
+}
+
+.using-grid li p {
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.using-grid li div {
+    min-width: 0;
+    max-width: 250px;
+    overflow-wrap: break-word;
+}
+
+section.three {
+    padding-top: 20px;
+    padding-left: 27%;
+    padding-right: 27%;
+    padding-bottom: 60pt;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+section.three p {
+    padding-top: 8px;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 17rem;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
