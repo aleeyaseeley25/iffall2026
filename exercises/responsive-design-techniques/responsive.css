@@ -1,0 +1,117 @@
+body {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    body {
+        background-color: #eaf6ff;
+    }
+}
+
+@media (min-width: 640px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.grid li {
+    display: block;
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.using-inline-block li {
+    display: inline-block;
+}
+
+.using-inline-block {
+    font-size: 0;
+}
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.using-grid li {
+    width: 100%;
+}
+
+@media (min-width: 480px) {
+    .special-grid li {
+        width: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    .special-grid li {
+        width: 25%
+    }
+}
+
+.special-grid li {
+    width: 100%
+}
+
+.special-grid aside {
+    margin: 10pt;
+}
+
+.special-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid li {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.using-inline-block li {
+    display: inline-block;
+}
+
+.using-inline-block {
+    font-size: 0;
+}
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.special-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.special-grid li {
+    width: 100%;
+}
+
+.special-grid ul {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
