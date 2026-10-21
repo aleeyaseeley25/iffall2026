@@ -1,0 +1,131 @@
+html {
+    background-color: #e8d2b1;
+}
+
+header {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+body {
+    color:#65351c;
+    font-size: 15pt;
+    background-image: url("images/border.png");
+    background-size: contain;
+}
+
+footer {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 4rem;
+    padding-bottom: 25px;
+}
+
+section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 22pt;
+}
+
+h3 {
+    font-size: 17pt;
+}
+
+.header-photo {
+    width: 60%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    padding: 0% 20% 0% 20%;
+}
+
+.ingredients {
+    padding-bottom: 2rem;
+}
+
+.nutrition {
+    padding-top: 2rem;
+}
+
+.step-1 {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.step-2 {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.step-3 {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.step-4 {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.photo-grid {
+    float: right;
+    top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 250px;
+    list-style: none;
+}
+
+.heart-grid {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.heart {
+    width: 150px;
+    height: auto;
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.heart-grid h3 {
+    font-size: 30pt;
+    margin-top: 3rem;
+}
