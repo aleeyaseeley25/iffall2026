@@ -1,0 +1,148 @@
+header {
+    text-align: center;
+}
+
+.samsung {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
+}
+
+@font-face {
+    font-family: 'SamsungBold';
+    src: url('fonts/SamsungSans-Bold.otf') format('opentype');
+}
+
+.samsung-text {
+    font-family: 'SamsungBold', sans-serif;
+}
+
+.samsung:hover {
+    box-shadow: 0 0 8px black;
+}
+
+.samsung:active {
+    box-shadow: 0 0 2px black;
+    transform: translate(-50%, -30%) scale(0.9);
+}
+
+.lyft {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: #EA0B8C;
+    color: white;
+    font-size: 50px;
+    padding: 10px 13px 10px 13px;
+    border-radius: 13px;
+}
+
+@font-face {
+    font-family:'Lyft';
+    src: url('fonts/Lyft.ttf') format('truetype');
+}
+
+.lyft-text {
+    font-family: 'Lyft';
+}
+
+.lyft:hover {
+    box-shadow: 0 0 8px #EA0B9C;
+}
+
+.lyft:active {
+    box-shadow: 0 0 2px #EA0B8C;
+    transform: translate(-50%, -30%) scale(0.9);
+}
+
+.tesla {
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: black;
+    height: 70px;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.tesla-button {
+    height: 40px;
+}
+
+.tesla:hover {
+    box-shadow: 0 0 8px black;
+}
+
+.tesla:active {
+    box-shadow: 0 0 2px black;
+    transform: translate(-50%, -30%) scale(0.9);
+}
+
+.old-navy {
+    font-family: 'old-navy';
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: #003764;
+    color: white;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'old-navy';
+    src: url('fonts/old-navy.ttf') format('truetype');
+}
+
+.old-navy:hover {
+    box-shadow: 0 0 8px #003764;
+}
+
+.old-navy:active {
+    box-shadow: 0 0 2px #003764;
+    transform: translate(-50%, -30%) scale(0.9);
+}
+
+.coca-cola {
+    font-family: 'coca-cola';
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: white;
+    color: #F40009;
+    font-size: 60px;
+    padding: 10px 35px 0px 7px;
+    border-radius: 10px;
+    border: 1px solid #F40009;
+}
+
+@font-face {
+    font-family: 'coca-cola';
+    src: url('fonts/coca-cola.ttf') format('truetype');
+}
+
+.coca-cola:hover {
+    box-shadow: 0 0 8px #F40009;
+}
+
+.coca-cola:active {
+    box-shadow: 0 0 2px #F40009;
+    transform: translate(-50%, -30%) scale(0.9);
+}
