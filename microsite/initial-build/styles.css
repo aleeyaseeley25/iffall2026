@@ -1,0 +1,136 @@
+html {
+    background-color: #FFFCF9;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align:center;
+    background-color: #93714B;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    color: white;
+    font-size: 50pt;
+}
+
+h2 {
+    font-size: 40pt;
+    text-align: left;
+}
+
+h3 {
+    font-size: 30pt;
+    text-align: left;
+}
+
+body {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: #D51212;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+span {
+    padding: 5px 5px 5px 5px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5% 20% 5% 20%;
+}
+
+.content-header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3% 20% 0 20%;
+}
+
+.circle {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+li {
+    list-style: none;
+}
+
+.tabs {
+    font-size: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs a {
+    border-right: 1px solid #C39D76;
+    padding: 0 30px;
+}
+
+.tabs a:hover {
+    text-shadow: 0 0 5px #5C3A12;
+}
+
+.tabs a:last-child {
+    border-right: none;
+}
+
+.overview {
+    color: white;
+    text-decoration: none;
+}
+
+.career {
+    color: white;
+    text-decoration: none;
+}
+
+.works {
+    color: white;
+    text-decoration: none;
+}
+
+.media {
+    color: white;
+    text-decoration: none;
+}
+
+.personal {
+    color: white;
+    text-decoration: none;
+}
+
+.legacy {
+    color: white;
+    text-decoration: none;
+}
+
+.source {
+    color: white;
+}
+
+.triple {
+    float: left;
+    width: 50%;
+    padding: 0 20px 10px 0;
+}
+
+.spacer {
+    height: 20px;
+}
